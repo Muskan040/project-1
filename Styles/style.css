@@ -58,3 +58,30 @@ a:focus {
   color: #60a5fa;
   text-shadow: 0 0 8px #3b82f6;
 }
+
+/* Header */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Img/light.jpg') no-repeat center center;
+  background-size: cover;
+  color: #e0e7ff;
+  text-align: center;
+  padding: 5rem 1rem;
+  border-bottom: 4px solid #3b82f6;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header h2 {
+  font-size: 1.5rem;
+  color: #bfdbfe;
+  font-style: italic;
+}
+
+header p a {
+  color: #60a5fa;
+  text-decoration: underline;
+}
