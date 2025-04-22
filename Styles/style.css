@@ -143,3 +143,38 @@ nav a {
 nav a:hover {
   background-color: #2563eb;
 }
+
+/* Main Content */
+main {
+  padding: 2rem 0;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Sections and Articles */
+article {
+  display: block;
+}
+
+section,
+section.container {
+  width: 100%;
+  padding: 2rem 1.5rem;
+  background-color: #1e293b;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+section.container h2,
+section.container h3 {
+  color: #e0e7ff;
+}
