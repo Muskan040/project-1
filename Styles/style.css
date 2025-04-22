@@ -85,3 +85,61 @@ header p a {
   color: #60a5fa;
   text-decoration: underline;
 }
+
+/* GitHub Button */
+.link-github {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: linear-gradient(45deg, #3b82f6, #0ea5e9);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+  transition: all 0.3s ease;
+}
+
+.link-github:hover {
+  background: linear-gradient(45deg, #60a5fa, #3b82f6);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #3b82f6;
+}
+
+.link-github svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 0.5rem;
+  fill: currentColor;
+}
+
+/* Navigation */
+nav {
+  background-color: #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0.75rem;
+  gap: 0.75rem;
+}
+
+nav a {
+  background: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #2563eb;
+}
