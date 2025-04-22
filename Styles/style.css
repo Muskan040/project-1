@@ -234,3 +234,31 @@ aside.profile {
   z-index: 1000;
   font-size: 0.9rem;
 }
+
+/* Featured Styles Section */
+#styles {
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+#styles h2 {
+  font-size: 1.8rem;
+  color: #60a5fa;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer Layout */
+footer.page-footer {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: #e2e8f0;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  border-top: 2px solid #3b82f6;
+  box-shadow: 0 -4px 15px rgba(59, 130, 246, 0.2);
+}
